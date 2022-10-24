@@ -1,0 +1,19 @@
+body{
+    color: #fff;
+}
+
+h3{
+    color: #000;
+}
+
+[class*="col-"]{
+    background-color: blue;
+    border: solid 1px #fff;
+    min-height: 40px;
+}
+
+[class*="col-"] [class*="col-"]{
+    background-color: green;
+    height: calc(100% - 20px);
+    border-color: blue;
+}
