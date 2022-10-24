@@ -131,39 +131,39 @@
 
 /* flex properties */
 /* justify-content */
-.justify-start{
+.xs-justify-start{
     justify-content: flex-start;
 }
 
-.justify-center{
+.xs-justify-center{
     justify-content: center;
 }
 
-.justify-end{
+.xs-justify-end{
     justify-content: flex-end;
 }
 
-.space-around{
+.xs-space-around{
     justify-content: space-around;
 }
 
-.space-between{
+.xs-space-between{
     justify-content: space-between;
 }
 
-.space-evenly{
+.xs-space-evenly{
     justify-content: space-evenly;
 }
 
 /* align items */
-.align-start{
+.xs-align-start{
     align-items: flex-start;
 }
 
-.align-center{
+.xs-align-center{
     align-items: center;
 }
 
-.align-end{
+.xs-align-end{
     align-items: flex-end;
 }
