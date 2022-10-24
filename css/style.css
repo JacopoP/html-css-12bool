@@ -7,13 +7,13 @@ h3{
 }
 
 [class*="col-"]{
-    background-color: blue;
+    background-color: #006cfa;
     border: solid 1px #fff;
     min-height: 40px;
 }
 
 [class*="col-"] [class*="col-"]{
-    background-color: green;
+    background-color: #00e265;
     height: calc(100% - 20px);
     border-color: blue;
 }
