@@ -1,0 +1,25 @@
+body{
+    color: #fff;
+}
+
+h2, h3{
+    color: #000;
+}
+
+[class*="col-"]{
+    background-color: #006cfa;
+    border: solid 1px #fff;
+    min-height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+[class*="col-"] [class*="col-"]{
+    background-color: #00e265;
+    height: calc(100% - 20px);
+    border-color: blue;
+}
+
+[class*="col-"].big{
+    min-height: 80px;
+}
